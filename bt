@@ -1,0 +1,37 @@
+#bao gồm <stdio.h>
+#bao gồm <conio.h>
+
+Cấu trúc Honso
+{
+	Quốc tế;
+ 	Int Mau;
+ 	Int hon;
+};
+typedef struct honso HONSO;
+khoảng trống nhaphonso (HONSO &);
+khoảng trống xuathonso (HONSO);
+
+khoảng trống nhaphonso(HONSO &hs)
+{
+	printf("\n nhap tu:");
+	scanf("%d",&hs. Tu);
+	printf("\n nhap mau:");
+	scanf("%d",&hs. Mau);
+	printf("\n nhap nguyen:");
+	scanf("%d",&hs. Nguyễn);
+}
+
+khoảng trống xuathonso (HONSO hs)
+{
+	printf("%d/%d/%",hs. tu, hs. mau, hs. Nguyễn);
+}
+
+int chính()
+{
+	HONSO hs;
+	nhaphonso (hs);
+	xuathonso (hs);
+	
+	getch();
+	Trả về 0;
+}
